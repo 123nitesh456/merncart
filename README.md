@@ -1,35 +1,50 @@
-# MERNCART — Full-stack MERN E-commerce
+MernCart – MERN E-Commerce Website
 
-## Requirements
-- Node.js 18+
-- MongoDB local instance or MongoDB Atlas URI
+MernCart is a full-stack e-commerce web application built using the MERN stack.
 
-## Setup
-1. Open this folder in VS Code.
-2. In terminal run:
-   ```bash
-   npm install
-   npm run install-all
-   ```
-3. Copy `server/.env.example` to `server/.env` and set `MONGO_URI` and `JWT_SECRET`.
-4. Start MongoDB, then run:
-   ```bash
-   npm run dev
-   ```
-5. Frontend: http://localhost:5173 | API: http://localhost:5000
+Tech Stack
 
-## Demo data
-On first server start, sample products are inserted automatically when the products collection is empty.
+- MongoDB – Database
+- Express.js – Backend framework
+- React.js – Frontend library
+- Node.js – Runtime environment
+- CSS – Styling
 
-## Features
-- Product listing, search and category filtering
-- Product detail page
-- Registration/login with bcrypt password hashing and JWT
-- Protected cart and order APIs
-- Persistent cart stored in MongoDB
-- Checkout with delivery details
+Features
+
+- User registration and login
+- Product listing and product details
+- Product search and category filtering
+- Shopping cart management
+- Checkout functionality (demo)
 - Order history
-- Responsive React UI
+- MongoDB database integration
 
-## Environment variables
-Only variable names are documented here. Never commit `.env`.
+Project Structure
+
+- "client/" – React frontend
+- "server/" – Express and Node.js backend
+
+Installation and Setup
+
+1. Clone the repository:
+   "git clone YOUR_GITHUB_REPOSITORY_LINK"
+
+2. Install dependencies:
+   "npm install"
+
+3. Install client and server dependencies:
+   "npm run install-all"
+
+4. Configure environment variables in "server/.env" using the provided example file.
+
+5. Start the application:
+   "npm run dev"
+
+Note
+
+This project is developed for educational purposes. Checkout is a demo feature and does not process real payments.
+
+Author
+
+Nitesh
