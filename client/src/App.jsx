@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "http://https://dashboard.render.com/web/srv-dbkcoics728c739n11pg/api";
 const StoreContext = createContext(null);
 const useStore = () => useContext(StoreContext);
 
