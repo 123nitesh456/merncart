@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
 
-const API = "https://merncart-backend.onrender.com";
+const API = "https://merncart-backend.onrender.com/api";
 const StoreContext = createContext(null);
 const useStore = () => useContext(StoreContext);
 
