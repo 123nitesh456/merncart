@@ -26,4 +26,23 @@
     height: 170px;
     max-height: 170px;
   }
+}/* FINAL PRODUCT IMAGE FIX */
+.products .productimg {
+  width: 100%;
+  height: 240px;
+  aspect-ratio: auto;
+  overflow: hidden;
+}
+
+.products .productimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .products .productimg {
+    height: 150px;
+  }
 }
