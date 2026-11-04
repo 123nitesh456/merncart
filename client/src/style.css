@@ -927,20 +927,3 @@ footer small {
     font-size: 38px;
   }
 }
-.products .productimg {
-  height: 190px !important;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  overflow: hidden;
-}
-
-.products .productimg img {
-  width: 75% !important;
-  height: 75% !important;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain !important;
-  object-position: center;
-}
